@@ -1,0 +1,86 @@
+
+
+.xyz{
+   color: #777;
+   font-size: 16px;
+   background-color: #EFF1F2;
+   height: 55px;
+   display: flex;
+   align-items: center;
+   padding-left: 100px;
+}
+.btn{
+   background-color:var(--primary-color) ;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+   font-family: Montserrat,sans-serif;
+   height: 49.2px;
+   width: 207.35px;
+   padding: 15px 24px 15px 24px;
+}
+.btn:hover{
+   background-color: black;
+   color: white;
+}
+
+.Navtwo{
+   font-size: 15px;
+   color:#555555;
+   /* background-color: red; */
+}
+.Navbar{
+   width: 100vw;
+   position: fixed;
+   top:0px;
+}
+.navthree{
+   font-size: 16px;
+   color: white;
+   font-weight: 550;
+   font-family: Montserrat,sans-serif;
+   border-right: 1px solid white;
+   padding-right:10px;
+   display: flex;
+   align-items: center;
+   padding: 15px 25px;
+   letter-spacing: 0.14;
+   line-height: 25.6px;
+   text-decoration: none solid rgb(255,0,0);
+}
+
+.navthree:hover{
+   color:var(--primary-color);
+   border-right:1px solid var(--primary-color) ;
+}
+/* .hamburger{
+   top:0px;
+   left: 300px;
+   width: 300px;
+   height: 100vh;
+   background-color: #555555;
+   z-index: 9999;
+} */
+
+.hamburger {
+   width: 260px;
+   height: 100vh;
+   background-color: black;
+   z-index: 10;
+   /* display: none;  */
+}
+.ham{
+   font-size: 16px;
+   font-weight: 600;
+   font-family: Montserrat,sans-serif;
+   line-height: 23px;
+}
+.ham:hover{
+   color:var(--primary-color)
+}
+.active{
+   color:var(--primary-color)
+}
+/* .Navbar .hamburger.show {
+   display: block; 
+} */

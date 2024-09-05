@@ -1,0 +1,32 @@
+.contacttittle{
+ font-family: Montserrat,sans-serif;
+ font-size: 30px;
+ font-weight: 600;
+ line-height: 42px;
+ text-decoration: none solid rgb(51,51,51);
+ /* text-align:center; */
+ text-transform: uppercase;
+ color:#333333; 
+ border-bottom: 3px solid var(--primary-color);
+}
+.redtext{
+    color: var(--primary-color);
+}
+.redtext:hover{
+    color:gray
+}
+.question{
+    font-family:"Open Sans",sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none solid rgb(51,51,51);
+    text-align:left;
+}
+.answer{
+    font-family:"Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none solid rgb(51,51,51);
+    text-align:left;
+    color:#777777
+}

@@ -1,0 +1,114 @@
+.banner {
+    background-image: url('./../Assets/bannerimage.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 180px;
+    height: 580px; /* Adjust the height as needed */
+  }
+
+  .contentdiv{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .title{
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 46px;
+    text-decoration: none solid rgb(255,255,255);
+  }
+  .text{
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
+    word-spacing: 0px;
+    color: white;
+    margin-top: 20px;
+  }
+  .btn1{
+    background-color:var(--primary-color) ;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    height: 49.2px;
+    width: 207.35px;
+    padding: 15px 24px 15px 24px;
+    margin-top: 20px;
+ }
+ .btn1:hover{
+    background-color: black;
+    color: white;
+ }
+ .service{
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-decoration: none solid rgb(51,51,51);
+    border-right: 2px solid var(--primary-color);
+    height: 138px;
+    width:237px;
+    text-align: right;
+ }
+ .service2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+ }
+ .textx{
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
+    word-spacing: 0px;
+    color: #777777;
+    margin-top: 20px;
+ }
+ .cardtitle{
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none solid rgb(51,51,51);
+    text-align: left;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 0 0 10px 0;
+ }
+ .cardtext{
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    /* font-style: italic; */
+    line-height: 28px;
+    word-spacing: 0px;
+    color: #777777;
+    margin-top: 20px;
+ }
+ .readmore{
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none solid rgb(51,51,51);
+    text-align: left;
+    color: var(--primary-color);
+ }
+ .readmore:hover{
+    color:black;
+    text-decoration: underline;
+ }
+ .btn2{
+    background-color:var(--primary-color) ;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    height: 49.2px;
+    width: 207.35px;
+    /* padding: 15px 24px 15px 24px; */
+    margin-top: 20px;
+ }
