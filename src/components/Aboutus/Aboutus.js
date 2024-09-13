@@ -11,7 +11,7 @@ const Aboutus = () => {
              <div className='flex flex-col justify-center items-center mt-10 lg:w-[65%] md:w-[70%] sm:w-[90%] w-[95%] m-auto box-border'>
                   <div className='aboutustittle mb-6'>About Us</div>
                   <div className='abouttext'>
-                         Industrial Automation has been a systems integrator for the past 30+ years, serving a wide variety of manufacturing clients throughout the Midwest. Through the combined experience of our technical staff and business partners we can design and build automated control systems that will increase the safety, quality, productivity, and efficiency of your operation. What's more, we are guided by our Mission, Vision, and Values in how we conduct business and treat our customers and colleagues.
+                         Industrial Automation has been a systems integrator for the past 15+ years, serving a wide variety of manufacturing clients throughout the Midwest. Through the combined experience of our technical staff and business partners we can design and build automated control systems that will increase the safety, quality, productivity, and efficiency of your operation. What's more, we are guided by our Mission, Vision, and Values in how we conduct business and treat our customers and colleagues.
                   </div>
              </div>
              <div className='flex lg:flex-row md:flex-row sm:flex-row flex-col justify-center items-center mt-10'>

@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from './../Assets/image1.png'
-import image2 from './../Assets/image2.png'
-import image3 from "./../Assets/image3.png"
+import image1 from './../Assets/image1.jpg'
+import image2 from './../Assets/image2.jpg'
+import image3 from "./../Assets/image3.jpg"
 import './Middlecontent.css'
 const Middlecontent = () => {
   return (
@@ -40,7 +40,7 @@ const Middlecontent = () => {
         <div className='w-[90%] m-auto flex lg:flex-row md:flex-row sm:flex-row flex-col justify-between items-center mt-6'>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image1} className='w-full h-full' alt='image not found!'/>
+                    <img src={image1} loading="lazy" className='w-full h-full' alt='image not found1!'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>
@@ -54,7 +54,7 @@ const Middlecontent = () => {
             </div>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image2} className='w-full h-full' alt='image not found!'/>
+                    <img src={image2} loading="lazy" className='w-full h-full' alt='image not found2!'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>
@@ -68,7 +68,7 @@ const Middlecontent = () => {
             </div>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image3} className='w-full h-full' alt='image not found!'/>
+                    <img src={image3} loading="lazy" className='w-full h-full' alt='image not found3!'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>

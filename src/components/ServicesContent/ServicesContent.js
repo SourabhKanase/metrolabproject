@@ -57,18 +57,17 @@
 
 
 import React from 'react';
-import certificate1 from './../Assets/certificate1.png';
-import certificate2 from './../Assets/certificate2.png';
-import certificate3 from './../Assets/certificate3.png';
-import placeholder from './../Assets/image2.png'; // Temporary image placeholder
-import automationimage1 from './../Assets/image2.png';
-import automationimage2 from './../Assets/automationimage2.png';
-import roboticsimage1 from './../Assets/roboticsimage1.png'
-import roboticsimage2 from './../Assets/roboticsimage2.png'
-import erimage1 from './../Assets/erimage1.png'
-import erimage2 from './../Assets/erimage2.png'
-import fximage1 from './../Assets/fximage1.png'
-import fximage2 from './../Assets/fximage2.png'
+import certificate1 from './../Assets/certificate1.jpg';
+import certificate2 from './../Assets/certificate2.jpg';
+import certificate3 from './../Assets/certificate3.jpg';
+import automationimage1 from './../Assets/image2.jpg';
+import automationimage2 from './../Assets/automationimage2.jpg';
+import roboticsimage1 from './../Assets/image1.jpg'
+import roboticsimage2 from './../Assets/roboticsimage2.jpg'
+import erimage1 from './../Assets/erimage1.jpg'
+import erimage2 from './../Assets/erimage2.jpg'
+import fximage1 from './../Assets/fximage1.jpg'
+import fximage2 from './../Assets/fximage2.jpg'
 import './ServicesContent.css';
 
 const ServicesContent = () => {
@@ -125,6 +124,7 @@ const ServicesContent = () => {
           <div className="automation-item">
             <img
               src={automationimage1}
+              loading="lazy"
               alt="22B RAP CAB BOX POST PROCESS SPM"
               className="w-full h-auto object-cover"
             />
@@ -139,6 +139,7 @@ const ServicesContent = () => {
           <div className="automation-item">
             <img
               src={automationimage2}
+              loading="lazy"
               alt="Automatic Connector Assembly & Testing SPM"
               className="w-full h-auto object-cover"
             />
@@ -160,6 +161,7 @@ const ServicesContent = () => {
           <div className="robotic-item">
             <img
               src={roboticsimage1}
+              loading="lazy"
               alt="FCA - Front / Rear Bumper Ultrasonic Welding SPM"
               className="w-full h-auto object-cover"
             />
@@ -174,6 +176,7 @@ const ServicesContent = () => {
           <div className="robotic-item">
             <img
               src={roboticsimage2}
+              loading="lazy"
               alt="Robotic Ultrasonic Welding Cell"
               className="w-full h-auto object-cover"
             />
@@ -195,6 +198,7 @@ const ServicesContent = () => {
           <div className="ergonomic-item">
             <img
               src={erimage1}
+              loading="lazy"
               alt="Beam Member Handling Manipulator"
               className="w-full h-auto object-cover"
             />
@@ -209,6 +213,7 @@ const ServicesContent = () => {
           <div className="ergonomic-item">
             <img
               src={erimage2}
+              loading="lazy"
               alt="Seat Handling Zero Gravity Manipulator"
               className="w-full h-auto object-cover"
             />
@@ -230,6 +235,7 @@ const ServicesContent = () => {
           <div className="fixture-item">
             <img
               src={fximage1}
+              loading="lazy"
               alt="BIW CMM Checking Fixtures"
               className="w-full h-auto object-cover"
             />
@@ -244,6 +250,7 @@ const ServicesContent = () => {
           <div className="fixture-item">
             <img
               src={fximage2}
+              loading="lazy"
               alt="D-Pillar Glass / Head Lamp / Tail Lamp - Aperture Gauges"
               className="w-full h-auto object-cover"
             />

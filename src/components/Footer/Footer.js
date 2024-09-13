@@ -7,7 +7,6 @@ const Footer = () => {
     <div className='bgimage w-full h-fit mt-10 '>
         <div className='insidediv h-fit p-6'>
                 <div className='flex lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] gap-4 m-auto  flex-wrap justify-center '>
-
                     <div className='lg:w-[250px] md:w-full sm:w-full w-full h-fit flex flex-col justify-center items-center'>
                        <div className='companylogo'>
                         <img src={company} alt='companylogo'/>
