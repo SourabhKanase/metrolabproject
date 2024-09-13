@@ -45,7 +45,7 @@ const Navbar = () => {
                   <img className='h-7' src={location} alt='location icon not found'/>
                   <div>
                       <span>
-                        PLANT : 29/13,D-Block,MIDC,Chinchwad
+                        PLANT : 29/13,D-Block,MIDC,Chinchwads
                       </span>
                   </div>
                 </div>
