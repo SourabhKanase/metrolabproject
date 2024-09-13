@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* <div className='lg:h-[150px]  Navtwo flex lg:justify-between md:justify-between  sm:justify-between  justify-center  w-[90%] m-auto items-center  '> */}
         <div className={`Navtwo   transition-all ease-linear  duration-50 flex lg:justify-between md:justify-between sm:justify-between justify-center w-[90%] m-auto items-center ${divHeight === 200 ? 'lg:h-[110px]' : 'lg:h-[80px]'} md:h-fit sm:h-fit h-fit`}>
             <div>
-                <img src={CompanyLogo} alt='image not found!' className='h-[92px] w-[200px]' />
+                <img src={CompanyLogo} alt='companylogo' className='h-[92px] w-[200px]' />
             </div>
             
             <div className='flex lg:flex-row md:flex-row sm:flex-col flex-col lg:w-[50%] md:w-[75%] sm:w-[55%]  justify-around'>

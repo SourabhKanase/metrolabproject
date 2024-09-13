@@ -40,7 +40,7 @@ const Middlecontent = () => {
         <div className='w-[90%] m-auto flex lg:flex-row md:flex-row sm:flex-row flex-col justify-between items-center mt-6'>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image1} loading="lazy" className='w-full h-full' alt='image not found1!'/>
+                    <img src={image1} loading="lazy" className='w-full h-full' alt='three'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>
@@ -54,7 +54,7 @@ const Middlecontent = () => {
             </div>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image2} loading="lazy" className='w-full h-full' alt='image not found2!'/>
+                    <img src={image2} loading="lazy" className='w-full h-full' alt='one'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>
@@ -68,7 +68,7 @@ const Middlecontent = () => {
             </div>
             <div className='lg:w-[32%] md:w-[32%] sm:w-[32%] w-[100%] '>
                <div>
-                    <img src={image3} loading="lazy" className='w-full h-full' alt='image not found3!'/>
+                    <img src={image3} loading="lazy" className='w-full h-full' alt='two'/>
                </div>
                <div className='mt-3'>
                    <div className='cardtitle uppercase'>
