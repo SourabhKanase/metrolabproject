@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <div className='Navbar bg-white'>
-        <div className={`navone ${divHeight==100 ? "hidden":"block"}  transition-all ease-linear  `}>
+        <div className={`navone ${divHeight===100 ? "hidden":"block"}  transition-all ease-linear  `}>
             <div className="xyz lg:pl-20 md:pl-20 sm:pl-20 pl-4">METROLAB AUTOMATION PVT. LTD.SINCE 2010</div>
         </div>
         {/* <div className='lg:h-[150px]  Navtwo flex lg:justify-between md:justify-between  sm:justify-between  justify-center  w-[90%] m-auto items-center  '> */}
