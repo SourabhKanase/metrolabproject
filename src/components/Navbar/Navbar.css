@@ -4,10 +4,10 @@
    color: #777;
    font-size: 16px;
    background-color: #EFF1F2;
-   height: 55px;
+   height: 45px;
    display: flex;
    align-items: center;
-   padding-left: 100px;
+   /* padding-left: 100px; */
 }
 .btn{
    background-color:var(--primary-color) ;

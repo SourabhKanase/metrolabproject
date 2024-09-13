@@ -44,12 +44,12 @@ const Footer = () => {
                         <span className='dash w-[15%]'></span>
                         <div >
                             <div className='contentbelowspan'><EnvironmentFilled className='mr-2 icons'/>PLANT : 29/13,D-Block,MIDC,Chinchwad ,Pune(MH) 411019 India</div>
-                            <div className='contentbelowspan'><PhoneFilled className='mr-2 icons'/>+91 9561512175</div>
+                            <div className='contentbelowspan'><PhoneFilled className='mr-2 icons'/>+91 966 546 7137</div>
                             <div className='contentbelowspan'><MailFilled className='mr-2 icons'/>info@metrolabautomation.com</div>
                         </div>
                     </div>
                 </div>
-                <div className='h-[200px]'>
+                <div className='h-[30px]'>
 
                 </div>
         </div>

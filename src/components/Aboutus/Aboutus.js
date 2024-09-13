@@ -1,7 +1,8 @@
 import React from 'react';
 import targetimage from "./../Assets/target (1).png";
 import visionimage from './../Assets/graph.png';
-import valuesimage from './../Assets/diamond.png'
+import valuesimage from './../Assets/diamond.png';
+import { NavLink } from 'react-router-dom';
 import './Aboutus.css'
 const Aboutus = () => {
   return (
@@ -28,7 +29,7 @@ const Aboutus = () => {
               </div>
              </div>
              <div className='flex items-center justify-center mt-10'>
-               <button className='btn1'>READ MORE</button>
+               <button className='btn1'><NavLink to="/visionmissionvalues" >READ MORE</NavLink></button>
              </div>
         </div>
     </div>

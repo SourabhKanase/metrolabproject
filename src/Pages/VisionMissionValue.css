@@ -1,0 +1,30 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    color: #777;
+}
+
+.section-title {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    color:#333333
+}
+
+.section-text, .mission-list li {
+    line-height: 22px;
+    color: #777;
+}
+
+.mission-list {
+    padding-left: 1.25rem; /* Matches the padding for lists in the About component */
+}
+
+.mission-list li {
+    margin-bottom: 0.5rem; /* Adds some spacing between list items */
+}
+
+.values-section .section-text {
+    margin-top: 1rem;
+}

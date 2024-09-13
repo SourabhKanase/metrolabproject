@@ -1,15 +1,9 @@
-/* .xyz{
-    font-family: ;
-} */
-
 
 
 .contact-text-container {
     max-width: 800px;
-    /* margin: 30px auto; */
     padding: 20px;
     background-color: #fff;
-    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -31,29 +25,3 @@
     margin-top: 15px;
 }
 
-/* .contact-info-container {
-    padding: 1.5rem;
-    background-color: white;
-    border-radius: 0.5rem;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-.contact-info-container p {
-    margin: 0.5rem 0;
-    color: #333;
-}
-
-.contact-info-container strong {
-    color: #000;
-}
-
-.emergency-info {
-    color: #e3342f; 
-    font-style: italic;
-}
-
-.contact-info-container div {
-    margin-bottom: 1rem; 
-}
- */

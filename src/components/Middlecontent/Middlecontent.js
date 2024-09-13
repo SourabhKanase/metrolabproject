@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from './../Assets/image1.jpg'
-import image2 from './../Assets/image2.jpg'
-import image3 from "./../Assets/image3.jpg"
+import image1 from './../Assets/image1.png'
+import image2 from './../Assets/image2.png'
+import image3 from "./../Assets/image3.png"
 import './Middlecontent.css'
 const Middlecontent = () => {
   return (
@@ -43,8 +43,8 @@ const Middlecontent = () => {
                     <img src={image1} className='w-full h-full' alt='image not found!'/>
                </div>
                <div className='mt-3'>
-                   <div className='cardtitle'>
-                      SCADA/HMI
+                   <div className='cardtitle uppercase'>
+                   FR Bumper Punching spm
                    </div>
                    <div className='cardtext'>
                      <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>
@@ -57,8 +57,8 @@ const Middlecontent = () => {
                     <img src={image2} className='w-full h-full' alt='image not found!'/>
                </div>
                <div className='mt-3'>
-                   <div className='cardtitle'>
-                      ROBOTICS
+                   <div className='cardtitle uppercase'>
+                    RAP CAP BOX POST process spm
                    </div>
                    <div className='cardtext'>
                      <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>
@@ -71,8 +71,8 @@ const Middlecontent = () => {
                     <img src={image3} className='w-full h-full' alt='image not found!'/>
                </div>
                <div className='mt-3'>
-                   <div className='cardtitle'>
-                      AUTOMATION
+                   <div className='cardtitle uppercase'>
+                     SPORTS HOOP multihead spm
                    </div>
                    <div className='cardtext'>
                      <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>

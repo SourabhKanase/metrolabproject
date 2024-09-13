@@ -31,11 +31,11 @@ const Navbar = () => {
 
   return (
     <div className='Navbar bg-white'>
-        <div className={`navone ${divHeight==100 ? "hidden":"block"}  `}>
-            <div className="xyz">METROLAB AUTOMATION PVT. LTD.SINCE 1990</div>
+        <div className={`navone ${divHeight==100 ? "hidden":"block"}  transition-all ease-linear  `}>
+            <div className="xyz lg:pl-20 md:pl-20 sm:pl-20 pl-4">METROLAB AUTOMATION PVT. LTD.SINCE 2010</div>
         </div>
         {/* <div className='lg:h-[150px]  Navtwo flex lg:justify-between md:justify-between  sm:justify-between  justify-center  w-[90%] m-auto items-center  '> */}
-        <div className={`Navtwo   transition-all ease-in  duration-50 flex lg:justify-between md:justify-between sm:justify-between justify-center w-[90%] m-auto items-center ${divHeight === 200 ? 'lg:h-[110px]' : 'lg:h-[80px]'} md:h-fit sm:h-fit h-fit`}>
+        <div className={`Navtwo   transition-all ease-linear  duration-50 flex lg:justify-between md:justify-between sm:justify-between justify-center w-[90%] m-auto items-center ${divHeight === 200 ? 'lg:h-[110px]' : 'lg:h-[80px]'} md:h-fit sm:h-fit h-fit`}>
             <div>
                 <img src={CompanyLogo} alt='image not found!' className='h-[92px] w-[200px]' />
             </div>
@@ -53,21 +53,23 @@ const Navbar = () => {
                   <img className='h-7' src={telephone} alt='telephone icon not found'/>
                   <div>
                       <span>
-                        (608) 781-6878
+                        +91 966 546 7137
                         info@metrolabautomation.com
                       </span>
                   </div>
                 </div>
             </div>
+            <NavLink to="/contact">
             <div className='lg:block md:hidden sm:hidden hidden '>
               <button className='btn'>
                 REQUEST A QOUTE
               </button>
             </div>
+            </NavLink>
             
         </div>
 
-        <div className='w-full transition-all ease-in  duration-50 bg-black '>
+        <div className='w-full transition-all ease-linear  duration-50 bg-black '>
            <div className={`w-[95%] m-auto ${divHeight === 200 ? 'lg:h-[70px]' : 'lg:h-[60px]'} bg-black flex text-white p-4 justify-between items-center`}>
                   <div className='w-[60%] lg:block md:hiddden sm:hidden hidden'>
                    <div className='flex w-full justify-around'>
@@ -75,10 +77,10 @@ const Navbar = () => {
                       <span><NavLink to="/" className={currentPath ==="/" ? "active" : ""}>HOME</NavLink></span>
                     </div>
                     <div className='navthree'>
-                      <span>SERVICES</span>
+                      <span><NavLink to="/services" className={currentPath ==="/services" ? "active" : ""}>SERVICES</NavLink></span>
                     </div>
                     <div className='navthree'>
-                      <span>CASE STUDY</span>
+                      <span><NavLink to="/casestudy" className={currentPath ==="/casestudy" ? "active" : ""}>CASE STUDY</NavLink></span>
                     </div>
                     <div className='navthree'>
                       <span><NavLink to="/about" className={currentPath ==="/about" ? "active" : ""}>ABOUT US</NavLink></span>
@@ -107,8 +109,8 @@ const Navbar = () => {
           <div className='flex flex-col space-y-4'>
             <div className='flex justify-end'><CloseOutlined onClick={()=>setShow(false)} /></div>
             <div className='flex justify-center p-2 border-b border-gray-500 ham'><NavLink to="/" className={currentPath ==="/" ? "active" : ""}>HOME</NavLink></div>
-            <div className='flex justify-center p-2 border-b border-gray-500 ham'>SERVICES</div>
-            <div className='flex justify-center p-2 border-b border-gray-500 ham'>CASE STUDY</div>
+            <div className='flex justify-center p-2 border-b border-gray-500 ham'><NavLink to="/services" className={currentPath ==="/services" ? "active" : ""}>SERVICES</NavLink></div>
+            <div className='flex justify-center p-2 border-b border-gray-500 ham'><NavLink to="/casestudy" className={currentPath ==="/casestudy" ? "active" : ""}>CASE STUDY</NavLink></div>
             <div className='flex justify-center p-2 border-b border-gray-500 ham'><NavLink to="/about" className={currentPath ==="/about" ? "active" : ""}>ABOUT US</NavLink></div>
             <div className='flex justify-center p-2 ham'><NavLink to="/contact" className={currentPath ==="/contact" ? "active" : ""}>CONTACT US</NavLink></div>
           </div>
