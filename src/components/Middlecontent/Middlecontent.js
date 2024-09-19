@@ -47,7 +47,7 @@ const Middlecontent = () => {
                    FR Bumper Punching spm
                    </div>
                    <div className='cardtext'>
-                     <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>
+                     <div>The DUV596 - Front Bumper Upper Fascia Punching and Ultrasonic Welding SPM is a state-of-the-art Special Purpose Machine (SPM) designed by Metrolab Automation Pvt. Ltd.</div>
                      <div className='mt-4 readmore'>READ MORE...</div>
                    </div>
                </div>
@@ -61,7 +61,7 @@ const Middlecontent = () => {
                     RAP CAP BOX POST process spm
                    </div>
                    <div className='cardtext'>
-                     <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>
+                     <div>An advanced and highly efficient solution designed and manufactured by Metrolab Automation Pvt. Ltd., specifically tailored for high-precision punching applications.</div>
                      <div className='mt-4 readmore'>READ MORE...</div>
                    </div>
                </div>
@@ -75,7 +75,7 @@ const Middlecontent = () => {
                      SPORTS HOOP multihead spm
                    </div>
                    <div className='cardtext'>
-                     <div>Integrate single machine visibility or all facets of your manufacturing and control system.</div>
+                     <div>The J73 - Sports Hoop Multihead Ultrasonic Welding SPM is a highly advanced Special Purpose Machine (SPM) designed by Metrolab Automation Pvt. Ltd.</div>
                      <div className='mt-4 readmore'>READ MORE...</div>
                    </div>
                </div>
