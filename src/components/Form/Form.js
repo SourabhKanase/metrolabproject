@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 import './Form.css';
 
 const Form = () => {
@@ -17,6 +19,13 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form Data Submitted:', formData);
+    toast.success('We will reach out you soon!');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    });
   };
 
   return (

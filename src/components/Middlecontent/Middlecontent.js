@@ -2,6 +2,7 @@ import React from 'react';
 import image1 from './../Assets/image1.jpg'
 import image2 from './../Assets/image2.jpg'
 import image3 from "./../Assets/image3.jpg"
+import { NavLink} from 'react-router-dom';
 import './Middlecontent.css'
 const Middlecontent = () => {
   return (
@@ -82,7 +83,7 @@ const Middlecontent = () => {
             </div>
         </div>
         <div className='flex items-center justify-center mt-8'>
-            <button className='btn2 mb-8'>VIEW ALL SERVICES</button>
+          <NavLink to="/services"><button className='btn2 mb-8'>VIEW ALL SERVICES</button></NavLink>
         </div>
         </div>
     </div>

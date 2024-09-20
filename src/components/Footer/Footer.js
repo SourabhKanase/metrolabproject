@@ -2,6 +2,7 @@ import React from 'react'
 import company from './../Assets/CompanyLogo.png'
 import { EnvironmentFilled, MailFilled, PhoneFilled } from '@ant-design/icons';
 import './Footer.css';
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='bgimage w-full h-fit mt-10 '>
@@ -30,10 +31,10 @@ const Footer = () => {
                         <span className='spantag'>Quick Links</span>
                         <span className='dash w-[15%]'></span>
                         <div >
-                            <div className='contentbelowspan'>Home </div>
-                            <div className='contentbelowspan'>Services</div>
-                            <div className='contentbelowspan'>Contact Us</div>
-                            <div className='contentbelowspan'>About us</div>
+                            <NavLink to={'/'}><div className='contentbelowspan'>Home </div></NavLink>
+                            <NavLink to={'/services'}><div className='contentbelowspan'>Services</div></NavLink>
+                            <NavLink to={'/contact'}><div className='contentbelowspan'>Contact Us</div></NavLink>
+                            <NavLink to={'/about'}><div className='contentbelowspan'>About us</div></NavLink>
                         </div>
                     </div>
 
